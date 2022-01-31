@@ -22,7 +22,7 @@ public class Seller {
 	@OneToMany(mappedBy = "seller")
 	private List<Sale> sales = new ArrayList<>();
 	
-	public Seller() {
+	public Seller () {
 		
 	}
 
@@ -51,5 +51,6 @@ public class Seller {
 		return sales;
 	}
 	
+
 	
 }
