@@ -17,7 +17,7 @@ public class Sale {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private  Integer visited;
+	private Integer visited;
 	private Integer deals;
 	private Double amount;
 	private LocalDate date;
@@ -26,7 +26,7 @@ public class Sale {
 	@JoinColumn(name = "seller_id")
 	private Seller seller;
 	
-	public Sale () {
+	public Sale() {
 		
 	}
 
@@ -86,5 +86,4 @@ public class Sale {
 	public void setSeller(Seller seller) {
 		this.seller = seller;
 	}
-	
 }
