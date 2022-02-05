@@ -18,7 +18,7 @@ const Home = () => {
             fornecidos por um back end construído com Spring Boot.
           </p>
           <Link className="btn btn-primary btn-lg" to="/dashboard">
-              Acesso Dashboard
+            Acesso Dashboard
           </Link>
         </div>
       </div>
