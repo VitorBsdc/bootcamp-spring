@@ -6,6 +6,6 @@ Home:
 
 ![print1](/img/print1.png)
 
-Home:
+Dashboard:
 
 ![print2](/img/print2.png)
